@@ -8,7 +8,7 @@ setup(
     author='anonymous',
     author_email='anonymous@foo',
     package_dir={'': 'src'},
-    packages=find_packages(),
+    packages=['roslint'],
     entry_points={
         'console_scripts': [
             'roslint-cpplint = roslint.roslint_cpplint:main',
